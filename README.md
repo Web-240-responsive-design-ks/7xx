@@ -6,3 +6,8 @@ bowlersrus step 700 branch 700-0
 -created assets/css/style.css file
 -created snowman div styles
 -linked style.css in index.html
+
+
+700-1
+-added face and hat div to index
+-created style for snowman face and hat div
