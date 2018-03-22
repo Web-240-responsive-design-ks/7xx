@@ -7,48 +7,85 @@ body {
 /* SNOWMAN */
 
 .snowman {
-	width: 250px;
-	margin: auto;
-	overflow: visible;
-	
-	
+    width: 250px;
+    margin: auto;
+    overflow: visible;
 }
-
 .smBody, .smFeet, .smHead {
-	border: thin #000 solid;
-	height: 150px;
-	background-color: aliceblue;
-	border-radius: 45%;
-	margin: auto auto;	
-	
+    border: thin #000 solid;
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 45%;
+    margin: auto auto;
 }
-
 .smHead {
-	
-	position: relative;
-	bottom: -60px;
-	z-index: 10;
-	width: 50%;
-	
+    position: relative;
+    bottom: -60px;
+    z-index: 10;
+    width: 50%;
 }
-
+.hat {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    position: absolute;
+    top: -70px;
+    left: 20px;
+}
+.rim {
+    background-color: black;
+    width: 120px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: -20px;
+}
+.face {
+    margin: 40px auto;
+    height: 30px;
+    position: relative;
+    width: 50%;
+}
+.eye, .nose, .mouth {
+    border: thin #000 solid;
+    width: 20px;
+    height: 15px;
+    background-color: black;
+    border-radius: 45%;
+}
+.leye {
+    float: left;
+}
+.reye {
+    float: right;
+}
+.nose, .mouth {
+    clear: both;
+    margin: auto;
+}
+.nose {
+    margin-top: 20px;
+    height: 30px;
+}
+.mouth {
+    margin-top: 10px;
+    width: 50px;
+}
 .smBody {
-	width: 70%;
-	height: 200px;
-	
-	position: relative;
-	bottom: -40px;
-	z-index: 9;
-	
-	
-}.smFeet {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    bottom: -40px;
+    z-index: 9;
+}
+.smFeet {
     width: 250px;
     height: 300px;
     z-index: 8;
     margin-bottom: -40px;
 }
-
-
-
 
 
