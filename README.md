@@ -11,3 +11,11 @@ bowlersrus step 700 branch 700-0
 700-1
 -added face and hat div to index
 -created style for snowman face and hat div
+
+701 - 0
+-added hill div to index
+-added hill class to style.css
+-added bg gradient to body
+-forced content to stay in window to and overflow to be hidden
+-forced scrollbar to be hidden
+-centered snowman to middle of screen
