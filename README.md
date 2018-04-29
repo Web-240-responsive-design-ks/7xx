@@ -19,3 +19,9 @@ bowlersrus step 700 branch 700-0
 -forced content to stay in window to and overflow to be hidden
 -forced scrollbar to be hidden
 -centered snowman to middle of screen
+
+
+702-0 
+-added fir div
+-added app.js to append tree to body as well as randomize tree position reasonably
+-added fir styles to css file
