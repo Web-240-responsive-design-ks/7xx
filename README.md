@@ -25,3 +25,8 @@ bowlersrus step 700 branch 700-0
 -added fir div
 -added app.js to append tree to body as well as randomize tree position reasonably
 -added fir styles to css file
+
+703-0 
+-added mountian to the index file and a div inside. 
+-added mountain styles to style.css to give shadow and colors
+- added randomize code for the mountain for app.js
