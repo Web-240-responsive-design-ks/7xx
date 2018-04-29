@@ -30,3 +30,8 @@ bowlersrus step 700 branch 700-0
 -added mountian to the index file and a div inside. 
 -added mountain styles to style.css to give shadow and colors
 - added randomize code for the mountain for app.js
+
+704-0 
+-added snow div
+-added snow.js to make snow fall randomly 
+- added to css to stylize the snow making it visible
