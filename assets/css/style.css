@@ -6,117 +6,150 @@ html {
 	overflow: hidden;
 }
 body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    color: #fff;
-    background-color: #9cf;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#6af), to(#bdf));
-    background-image: -webkit-linear-gradient(#6af, #bdf);
-    background-image: -moz-linear-gradient(#6af, #bdf);
-    background-image: linear-gradient(#6af, #bdf);
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	color: #fff;
+	background-color: #9cf;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6af), to(#bdf));
+	background-image: -webkit-linear-gradient(#6af, #bdf);
+	background-image: -moz-linear-gradient(#6af, #bdf);
+	background-image: linear-gradient(#6af, #bdf);
 }
 ::-webkit-scrollbar {
-    display: none;
+ display: none;
 }
-
 /* SNOWMAN */
 
 .snowman {
 	text-align: center;
-    width: 250px;
-    margin: auto;
-    overflow: visible;
+	width: 250px;
+	margin: auto;
+	overflow: visible;
 	position: fixed;
 	bottom: -300px;
 	left: 40%;
 }
 .smBody, .smFeet, .smHead {
-    border: thin #000 solid;
-    height: 150px;
-    background-color: aliceblue;
-    border-radius: 45%;
-    margin: auto auto;
+	border: thin #000 solid;
+	height: 150px;
+	background-color: aliceblue;
+	border-radius: 45%;
+	margin: auto auto;
 }
 .smHead {
-    position: relative;
-    bottom: -60px;
-    z-index: 10;
-    width: 50%;
+	position: relative;
+	bottom: -60px;
+	z-index: 10;
+	width: 50%;
 }
 .hat {
-    background-color: black;
-    width: 80px;
-    height: 80px;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-    position: absolute;
-    top: -70px;
-    left: 20px;
+	background-color: black;
+	width: 80px;
+	height: 80px;
+	border-top-left-radius: 15%;
+	border-top-right-radius: 15%;
+	position: absolute;
+	top: -70px;
+	left: 20px;
 }
 .rim {
-    background-color: black;
-    width: 120px;
-    height: 30px;
-    border-radius: 50%;
-    position: absolute;
-    top: 70px;
-    left: -20px;
+	background-color: black;
+	width: 120px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	top: 70px;
+	left: -20px;
 }
 .face {
-    margin: 40px auto;
-    height: 30px;
-    position: relative;
-    width: 50%;
+	margin: 40px auto;
+	height: 30px;
+	position: relative;
+	width: 50%;
 }
 .eye, .nose, .mouth {
-    border: thin #000 solid;
-    width: 20px;
-    height: 15px;
-    background-color: black;
-    border-radius: 45%;
+	border: thin #000 solid;
+	width: 20px;
+	height: 15px;
+	background-color: black;
+	border-radius: 45%;
 }
 .leye {
-    float: left;
+	float: left;
 }
 .reye {
-    float: right;
+	float: right;
 }
 .nose, .mouth {
-    clear: both;
-    margin: auto;
+	clear: both;
+	margin: auto;
 }
 .nose {
-    margin-top: 20px;
-    height: 30px;
+	margin-top: 20px;
+	height: 30px;
 }
 .mouth {
-    margin-top: 10px;
-    width: 50px;
+	margin-top: 10px;
+	width: 50px;
 }
 .smBody {
-    width: 70%;
-    height: 200px;
-    position: relative;
-    bottom: -40px;
-    z-index: 9;
+	width: 70%;
+	height: 200px;
+	position: relative;
+	bottom: -40px;
+	z-index: 9;
 }
 .smFeet {
-    width: 250px;
-    height: 300px;
-    z-index: 8;
-    margin-bottom: -40px;
+	width: 250px;
+	height: 300px;
+	z-index: 8;
+	margin-bottom: -40px;
 }
-
 .hill {
-    
-    width: 300%;
-    margin-left: -150%;
-    min-height: 100px;
-    padding: 60%;
-    border-radius: 50%;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    background-color: #FFF;
+	border-top: 2px solid #000;
+	width: 300%;
+	margin-left: -150%;
+	min-height: 100px;
+	padding: 60%;
+	border-radius: 50%;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	background-color: #FFF;
+}
+/* TREE start here ------*/
+.fir {
+	position: absolute;
+	margin: 0 auto;
+	width: 8em;
+	bottom: 0;
+	margin-bottom: -150px;
+}
+.fir-item {
+	margin: 0 auto;
+	width: 0;
+	height: 0;
+	border-left: 2.3em solid transparent;
+	border-right: 2.3em solid transparent;
+	border-bottom: 3em solid #16850c;
+}
+.fir-item:nth-child(2) {
+	margin-top: -1.3em;
+	border-left-width: 3em;
+	border-right-width: 3em;
+	border-bottom-width: 4em;
+}
+.fir-item:nth-child(3) {
+	margin-top: -1.7em;
+	border-left-width: 4em;
+	border-right-width: 4em;
+	border-bottom-width: 5em;
+}
+.fir-log {
+	margin: 0 auto;
+	width: 1.3em;
+	height: 1.3em;
+	background: #8c370f;
+	background: linear-gradient(#8c370f, #5c240a);
 }
